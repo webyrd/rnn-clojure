@@ -12,7 +12,7 @@
     val
     >
     (frequencies (apply concat (map #(into [] %) (map ops-used ns-ast))))))
-
+ 
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
