@@ -5,7 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
 	         [org.clojure/data.json "0.2.6"]
-                 [org.clojure/tools.analyzer.jvm "0.6.10"]]
+                 [org.clojure/tools.analyzer.jvm "0.6.10"]
+		 [org.clojure/core.match "0.3.0-alpha4"]]
   :main ^:skip-aot rnn-clojure.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

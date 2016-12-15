@@ -1,5 +1,8 @@
 # rnn-clojure
 
+With Michael Ballantyne (https://github.com/michaelballantyne)
+
+
 FIXME: description
 
 ## Installation
