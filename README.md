@@ -3,37 +3,10 @@
 With Michael Ballantyne (https://github.com/michaelballantyne)
 
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+Machine learning on abstracted Clojure abstract syntax trees (ASTs), which will be used to inform Barliman's (https://github.com/webyrd/Barliman) search.
 
 ## Usage
 
-FIXME: explanation
+```lein run clojure.core.logic```
 
-    $ java -jar rnn-clojure-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+See `abstracted-clojure-asts.txt` for example output.
