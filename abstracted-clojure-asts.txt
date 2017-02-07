@@ -1,0 +1,216 @@
+Last login: Sun Feb  5 21:43:28 on ttys000
+webyrd:~$ cd github/rnn-clojure
+webyrd:~/github/rnn-clojure$ lein run clojure.core.logic
+((def (topvar))
+ (def (fn (topvar fnvar (topvar (topvar fnvar) fnvar fnvar))))
+ (def (fn (topvar fnvar (topvar (topvar fnvar) fnvar))))
+ (def (fn (topvar fnvar fnvar)))
+ (def
+  (fn
+   (topvar
+    vector
+    (topvar topvar (topvar (fn (topvar fnvar)) (topvar))))))
+ (def (fn (topvar (fn (topvar (topvar fnvar))) (topvar fnvar fnvar))))
+ (def (fn (let (topvar fnvar) (topvar fnvar fnvar))))
+ (def
+  (fn
+   (let
+    (topvar fnvar)
+    (topvar
+     (fn
+      (let
+       (topvar fnvar)
+       (if (topvar letvar) (topvar fnvar letvar) letvar)))))))
+ (def (fn (let (topvar fnvar) (topvar fnvar))))
+ (def (fn (topvar fnvar)))
+ (def (topvar))
+ (def (fn (fn (topvar fnvar topvar fnvar fnvar))))
+ (def (fn (topvar fnvar topvar)))
+ (def (fn (topvar fnvar fnvar)))
+ (def (fn fnvar))
+ (def topvar)
+ (def topvar)
+ (def (fn (fn (topvar fnvar fnvar))))
+ (def
+  (fn
+   (fn
+    (topvar (topvar (topvar (topvar quote) (topvar fnvar) fnvar))))))
+ (def (fn (topvar (topvar fnvar) fnvar)))
+ (def
+  (fn
+   ((topvar
+     topvar
+     (fn
+      (topvar
+       (topvar
+        (topvar
+         (topvar quote)
+         (topvar
+          (topvar
+           (topvar (topvar (topvar quote) (topvar fnvar))))))))))
+    fnvar)))
+ (def (fn (topvar topvar fnvar)))
+ (def vector)
+ (def (fn (fn (topvar topvar fnvar fnvar))))
+ (def
+  (fn
+   (fn
+    (topvar
+     (topvar
+      (topvar
+       (topvar fnvar)
+       (topvar
+        (topvar
+         (topvar
+          (topvar
+           (topvar quote)
+           (topvar fnvar)
+           (topvar fnvar)))))))))))
+ (def (fn (topvar topvar (topvar (topvar fnvar) fnvar))))
+ (def
+  (fn
+   (fn
+    (topvar
+     (topvar
+      (topvar
+       (topvar
+        (topvar
+         (topvar (topvar (topvar (topvar fnvar)) (topvar fnvar)))))
+       (topvar fnvar)))))))
+ (def
+  (fn
+   (fn
+    (let
+     (topvar fnvar fnvar)
+     ((fn
+       (fn
+        (topvar
+         (topvar (topvar (topvar topvar letvar) letvar) fnvar))))
+      fnvar)))))
+ (def
+  (fn
+   (let
+    (topvar fnvar)
+    (if letvar (topvar (topvar quote fnvar)) letvar))))
+ (def
+  (fn
+   (let
+    (topvar fnvar)
+    (if
+     letvar
+     (let
+      (topvar fnvar quote)
+      (if letvar (topvar (topvar topvar fnvar)) letvar))
+     letvar))))
+ (def (fn (topvar fnvar)))
+ (def (fn (topvar (fn fnvar) fnvar)))
+ (def
+  (fn
+   (topvar
+    (topvar
+     (topvar (topvar fnvar) (topvar (topvar (topvar fnvar) fnvar)))))))
+ (def (fn (topvar quote fnvar)))
+ (def (fn (topvar (topvar fnvar fnvar) fnvar)))
+ (def
+  (fn
+   (fn
+    (fn (let (topvar quote) (topvar (topvar fnvar letvar fnvar)))))))
+ (def
+  (fn
+   (fn
+    (fn
+     (let
+      (topvar quote)
+      (topvar (topvar (topvar letvar fnvar) fnvar)))))))
+ (def
+  (fn
+   (fn
+    (let
+     (topvar fnvar)
+     (((fn
+        (if
+         (topvar fnvar)
+         (fn (topvar (letvar fnvar (topvar fnvar))))
+         topvar))
+       fnvar
+       letvar)
+      fnvar)))))
+ (def (fn (topvar fnvar fnvar fnvar)))
+ (def (fn (topvar fnvar)))
+ (def
+  (fn
+   (let
+    (topvar fnvar)
+    (let
+     (let ((topvar (topvar fnvar)) letvar) (if letvar letvar letvar))
+     (if letvar (topvar) letvar)))))
+ (def
+  (fn
+   (fn
+    (let
+     (topvar fnvar)
+     (if
+      (let
+       (topvar (topvar letvar))
+       (if letvar letvar (topvar (topvar fnvar letvar fnvar))))
+      (if
+       (topvar)
+       ((topvar (topvar fnvar) (topvar letvar (topvar fnvar))) fnvar)
+       fnvar)
+      ((topvar fnvar) fnvar))))))
+ (def
+  (fn
+   (if
+    (let fnvar (if letvar letvar (topvar fnvar)))
+    topvar
+    (fn
+     (let
+      (topvar fnvar (topvar fnvar) fnvar)
+      (if
+       (topvar letvar)
+       ((topvar (topvar letvar) (topvar (topvar fnvar) fnvar fnvar))
+        fnvar)
+       ((topvar (topvar fnvar) fnvar fnvar) fnvar)))))))
+ (def
+  (fn
+   (fn
+    ((let
+      (topvar fnvar)
+      (if
+       (topvar letvar)
+       (topvar letvar)
+       (let
+        (topvar fnvar)
+        (if (topvar letvar) (topvar letvar) (topvar letvar)))))
+     fnvar))))
+ (def (fn (topvar fnvar)))
+ (def (fn (topvar (topvar fnvar fnvar))))
+ (def (fn (fn (topvar fnvar fnvar))))
+ (def
+  (fn
+   (topvar
+    fnvar
+    (fn
+     (if
+      (topvar fnvar)
+      (topvar
+       (fnvar fnvar)
+       (topvar fnvar (fn ((topvar fnvar letvar fnvar) fnvar))))
+      (fnvar fnvar)))
+    fnvar))))
+48
+([:recur 21]
+ [:loop 20]
+ [:method 17]
+ [:instance? 17]
+ [:throw 11]
+ [:import 11]
+ [:deftype 10]
+ [:case-then 9]
+ [:case-test 9]
+ [:reify 9]
+ [:case 9]
+ [:letfn 5]
+ [:instance-field 3]
+ [:set! 1]
+ [:static-field 1])
